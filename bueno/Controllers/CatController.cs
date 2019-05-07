@@ -8,15 +8,15 @@ namespace bueno.Controllers
 {
     public class SaludoController
     {
-        [HttpGet("saluda/{idioma}")]
+        [HttpGet("saludan/{idioma}")]
         public String Saludo(string idioma)
         {
             switch (idioma)
             {
                 case "espa":
-                    return "Hola";
+                    return "Hola l";
                 case "english":
-                    return "Hello";
+                    return "Hello h";
             }
             return String.Empty;
         }
